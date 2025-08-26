@@ -1,5 +1,4 @@
-
-  {
+{
   "version": 2,
   "builds": [
     {
@@ -17,8 +16,8 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/server/index.ts"
-      "status":200
+      "dest": "/server/index.ts",
+      "status": 200
     }
   ]
 }
